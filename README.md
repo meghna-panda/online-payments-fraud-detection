@@ -9,13 +9,9 @@ This project demonstrates how to build a machine learning model using Python to 
 - [📌 Project Overview](#-project-overview)
 - [🧠 Machine Learning Approach](#-machine-learning-approach)
 - [📊 Dataset Information](#-dataset-information)
-- [🛠️ Installation](#️-installation)
-- [🚀 Usage](#-usage)
 - [📈 Model Performance](#-model-performance)
 - [📌 Project Structure](#-project-structure)
-- [📚 Resources](#-resources)
 - [🙋‍♂️ Contributing](#-contributing)
-- [📝 License](#-license)
 
 ---
 
@@ -62,8 +58,6 @@ The dataset used is from **Kaggle** and includes anonymized transaction data.
 
 ---
 
-## 🛠️ Installation
-
 ### 📦 Requirements
 
 - Python 3.7+
@@ -72,4 +66,23 @@ The dataset used is from **Kaggle** and includes anonymized transaction data.
 - scikit-learn
 - plotly (for visualization)
 
+##📈 Model Performance
+
+Model Used: Decision Tree Classifier
+
+Accuracy: 99.93%
+
+## Project Structure
+📁 online-payment-fraud-detection/
+├── credit_card.csv           # Dataset file
+├── fraud_detection.py        # Main ML script
+└── README.md                 # Documentation
+
+## 🙋‍♂️ Contributing
+Contributions, ideas, and feedback are welcome!
+Fork the repo
+Create a new branch (git checkout -b feature-name)
+Commit your changes (git commit -am 'Add new feature')
+Push to the branch (git push origin feature-name)
+Create a Pull Request ✅
 
